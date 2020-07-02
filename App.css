@@ -1,0 +1,35 @@
+body{
+    background-image: none;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    max-width: 100%;
+    padding: 10px;
+    background: #edf2f4;
+    border-bottom: 1px solid #999;
+  }
+  .header a {
+    color: #374632;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  .header a:hover {
+    color:rgb(163, 121, 121);
+  }
+  .header small {
+    color: #666;
+  }
+  .header .active {
+    color: #2c7613;
+  }
+  @media (max-width: 962px) {
+    .header{
+    
+        display: flex;
+    justify-content:space-between;
+    max-width: 100%;
+    padding: 10px;
+    }
+  }   
